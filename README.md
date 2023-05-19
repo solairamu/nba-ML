@@ -1,1 +1,3 @@
 # nba-ML
+
+This can predict any years top 5 mvps from 1991 to 2022. As new nba seasons start, I will update this with new data for that season, so this can be used to predict the current season's mvps as well. The last function in the machine-learning notebook is what can be used to generate the years prediction. Just call the function with whatever year you want to see. For all years, the average precision is around 75% using randomforests. This number could be much higher, but often times the mvp has many other factors such as the narrtive and story at the time which cannot be predicted by a computer.
